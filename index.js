@@ -63,7 +63,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-  res.send('Ema jon server is running on heroku');  
+  res.send('Ema jon server is running on heroku to make a intarective uri');  
 });
 
 app.listen(port, () => {
